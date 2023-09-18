@@ -9,6 +9,7 @@ def gcd(a, b):
 fraction_str1 = input("Введите первую дробь в ввиде a/b: ")
 fraction_str2 = input("Введите вторую дробь в ввиде a/b: ")
 
+# разделение строки на числитель и знаменатель
 numerator1, denominator1 = map(int, fraction_str1.split("/"))
 numerator2, denominator2 = map(int, fraction_str2.split("/"))
 
